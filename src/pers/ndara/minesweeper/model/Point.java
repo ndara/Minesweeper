@@ -1,3 +1,5 @@
+package pers.ndara.minesweeper.model;
+
 /**
  * Created by Nishanth on 6/30/15.
  */
@@ -17,13 +19,5 @@ public class Point
     public int getY()
     {
         return this.y;
-    }
-    public void setX(int newX)
-    {
-        this.x = newX;
-    }
-    public void setY(int newY)
-    {
-        this.y = newY;
     }
 }
